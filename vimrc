@@ -32,7 +32,6 @@ nnoremap zj mayyp`aj
 nnoremap zk mayyP`ak
 
 
-"Custom Grep function
 scriptversion 4
 
 command! -nargs=* -range Grep call Grep(<count>, <q-args>)
